@@ -1,0 +1,12 @@
+@mixin generate-no-paddings($size){
+	.no-padding-#{$size}{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	.no-padding-left-#{$size}{
+		padding-left:0px;
+	}
+	.no-padding-right-#{$size}{
+		padding-right:0px;
+	}
+}

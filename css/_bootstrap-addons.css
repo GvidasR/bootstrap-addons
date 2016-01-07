@@ -1,0 +1,88 @@
+/*
+ * Bootstrap addons
+ * By GvidasR (https://github.com/GvidasR)
+ */
+@media (max-width: 767px) {
+  .no-padding-xs {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .no-padding-left-xs {
+    padding-left: 0px;
+  }
+
+  .no-padding-right-xs {
+    padding-right: 0px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .no-padding-sm {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .no-padding-left-sm {
+    padding-left: 0px;
+  }
+
+  .no-padding-right-sm {
+    padding-right: 0px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .no-padding-md {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .no-padding-left-md {
+    padding-left: 0px;
+  }
+
+  .no-padding-right-md {
+    padding-right: 0px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .no-padding-lg {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .no-padding-left-lg {
+    padding-left: 0px;
+  }
+
+  .no-padding-right-lg {
+    padding-right: 0px;
+  }
+}
+@media (min-width: 1600px) {
+  .no-padding-xl {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .no-padding-left-xl {
+    padding-left: 0px;
+  }
+
+  .no-padding-right-xl {
+    padding-right: 0px;
+  }
+}
+.no-padding-all {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.no-padding-left-all {
+  padding-left: 0px;
+}
+
+.no-padding-right-all {
+  padding-right: 0px;
+}
+
+/*# sourceMappingURL=_bootstrap-addons.css.map */
