@@ -1,29 +1,29 @@
 // Mixin
-@import "mixins/no-paddings";
+@import "mixins/aligns";
 
 // No paddings for extra small devices (phones)
 @media (max-width: $screen-xs-max) {
-	@include generate-no-paddings(xs);
+	@include generate-aligns(xs);
 }
 
 // No paddings for small devices (tablets)
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
-	@include generate-no-paddings(sm);
+	@include generate-aligns(sm);
 }
 
 // No paddings for small screen sizes
 @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
-	@include generate-no-paddings(md);
+	@include generate-aligns(md);
 }
 
 // No paddings for medium screen sizes
 @media (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
-	@include generate-no-paddings(lg);
+	@include generate-aligns(lg);
 }
 
 // No paddings for large screen sizes
 @media (min-width: $screen-xl-min) {
-	@include generate-no-paddings(xl);
+	@include generate-aligns(xl);
 }
 
-@include generate-no-paddings(all);
+@include generate-aligns(all);

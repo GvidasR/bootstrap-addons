@@ -6,9 +6,8 @@
 // Variables
 @import "variables";
 
-// Mixins
-@import "addons/mixins/no-paddings";
-
-
 // No paddings
 @import "addons/no-paddings";
+
+// Text-aligns
+@import "addons/aligns";

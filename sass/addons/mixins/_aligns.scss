@@ -1,0 +1,14 @@
+@mixin generate-aligns($size){
+	.align-left-#{$size}{
+		text-align:left;
+	}
+	.align-right-#{$size}{
+		text-align:right;
+	}
+	.align-center-#{$size}{
+		text-align:center;
+	}
+	.align-justify-#{$size}{
+		text-align:justify;
+	}
+}
