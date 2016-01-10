@@ -4,7 +4,7 @@ Various bootstrap addons, that i often reuse in my projects.
 
 ## no-padding
 
-Classes that i use to remove paddings from columns
+Classes that removes paddings from columns
 
 ```css
 	.no-padding[-xs/sm/md/lg/xl/all]	/* Removes paddings from left & right */
@@ -14,7 +14,7 @@ Classes that i use to remove paddings from columns
 
 ## aligns
 
-Classes for text-alings
+Classes for text-aligns
 
 ```css
 	.align-left[-xs/sm/md/lg/xl/all]
